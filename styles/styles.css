@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 nav {
   background-color: steelblue;
   padding: 10px;
@@ -79,9 +78,9 @@ aside {
 }
 
 aside h2 {
-  position: absolute;
-  top: 47px;
-  left: 150px;
+  position: relative;
+  top: 03px;
+  left: 08px;
 } 
 
 
