@@ -19,11 +19,8 @@ nav a {
 }
   
 h1 {
-  color: steelblue;
-}
-
-h1 {
   margin-left: 20px; 
+  color: steelblue;
 }
 
 main img {
@@ -38,11 +35,9 @@ main img {
   
 p {
   padding: 0; 
-}
-
-p {
   margin-left: 20px; 
 }
+
 main {
   max-width: 840px;
 }
@@ -55,7 +50,7 @@ aside {
   background-color: #eee;
   color: #333;
   text-align: center;
-  position: relative; /* Asegúrate de que solo haya una declaración de posición relativa para aside */
+  position: relative; 
 }
   
 aside img {
@@ -64,9 +59,9 @@ aside img {
 }
 
 aside h2 {
-  position: relative; /* Posición relativa solo para h2 dentro de aside */
-  top: 3px; /* Corrección: No necesitas el cero al inicio */
-  left: 8px; /* Corrección: No necesitas el cero al inicio */
+  position: relative; 
+  top: 3px; 
+  left: 8px; 
 } 
 
 footer {
@@ -75,7 +70,7 @@ footer {
   text-align: center;
 }
   
-/* Clase Selector */
+/* Class Selector */
 .box {
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, .1);
