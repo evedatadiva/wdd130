@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Definir variables de color */
+:root {
+  --color-primary: #235fa0; /* Azul para el logo y enlaces */
+  --color-secondary: #28a745; /* Verde para acentos */
+  --color-white: #111111; /* Blanco para el texto */
+  --color-bg: #eef2f4; /* Color de fondo */
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Roboto', sans-serif; /* Utilizar Roboto como fuente principal */
+  color: var(--color-white); /* Texto blanco */
+  background-color: var(--color-bg); /* Fondo */
+  margin: 100;
+  padding: 100;
+}
+
+/* Estilos para el encabezado */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 150px; /* Tamaño máximo del logo */
+  padding-left: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+nav a {
+  color: var(--color-primary); /* Enlaces azules */
+  font-weight: 800; /* Negrita */
+  text-decoration: none; /* Sin subrayado */
+  margin-left: 100px; /* Espaciado entre enlaces */
+  font-size: 33px;
+  padding-left: 50px;
+
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: -14%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.2em;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+.welcome-text {
+  flex: 1; /* Que ocupe todo el espacio disponible */
+  padding-right: 3cm;
+}
+
+.welcome-image {
+  flex: 1.5; /* Que ocupe todo el espacio disponible */
+  text-align: left; /* Alinea la imagen a la derecha */
+}
+
+.welcome-image img {
+  max-width: 150px; /* Tamaño máximo de la imagen */
+}
+
+
+/* Estilos para el contenido principal */
+main {
+  max-width: 1200px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar el contenido */
+  padding: 20px;
+}
+
+article, section {
+  margin-bottom: 30px; /* Espacio entre secciones */
+}
+
+section {
+    display: flex;
+    flex-direction: column; /* Alinear elementos en columna */
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    text-align: center; /* Alinear texto en el centro */
+  }
+  
+h2 {
+  color: var(--color-primary); /* Encabezados en azul */
+  font-size: 25pt;
+
+}
+
+/* Estilos para el contenedor del carrusel */
+
+.slider-box {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-box ul {
+  display: flex;
+  padding: 0;
+  width: 500%; /* Ajusta el ancho total para todas las imágenes */
+  animation: slide 30s infinite alternate ease-in-out; /* Añade ease-in-out para una animación más suave */
+}
+
+.slider-box li {
+  width: 20%; /* Ajusta el ancho de cada imagen */
+  list-style: none;
+  position: relative;
+}
+
+.slider-box img {
+  width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+  height: auto;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); } /* Inicia sin desplazamiento */
+  100% { transform: translateX(-100%); } /* Desplaza todas las imágenes hacia la izquierda */
+}
+
+@media (max-width: 991px) {
+  .slider-box {
+    width: 100%;
+  }
+
+  .slider-box li {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+footer {
+  text-align: center; /* Centra horizontalmente */
+  padding: 30px;
+}
+
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center; /* Centra horizontalmente */
+  padding: 30px;
+}
+
+/* Estilos para los enlaces sociales */
+.sociallinks {
+  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+  text-align: right; /* Alinea los enlaces sociales a la derecha */
+}
+
+.sociallinks a {
+  margin-left: 10px; /* Espacio entre los enlaces sociales */
+}
+
+.sociallinks img {
+  width: 30px; /* Tamaño de los iconos */
+  height: auto;
+}
+
+
+
+.slider-heading {
+  text-align: center; /* Centra horizontalmente */
+  position: absolute; /* Posición absoluta para centrar verticalmente */
+  top: 50%; /* Alinea el elemento a la mitad superior del contenedor principal */
+  left: 50%; /* Alinea el elemento a la mitad izquierda del contenedor principal */
+  transform: translate(-50%, -50%); /* Centra vertical y horizontalmente */
+}
+
+/* Añade estas reglas al final de tu archivo CSS */
+
+.slider-heading {
+  position: absolute;
+  top: 190%; /* Ajusta la posición vertical según sea necesario */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; /* Asegura que esté por encima del slider */
+  color: #235fa0; /* Color */
+  font-size: 32px; /* Tamaño de fuente */
+    
+}
+main {
+  margin-top: 1.8cm; /* Agrega margen superior de 1.5 cm */
+}
+
+/* Margen entre el contenido principal y el pie de página */
+footer {
+  margin-top: 1cm; /* Agrega margen superior de 1.5 cm */
+  text-align: center;
+}
+
+/* Margen entre el slider y el pie de página */
+#slider {
+  margin-top: 1.8cm; /* Agrega margen superior de 1.5 cm */
+}
