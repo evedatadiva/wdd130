@@ -27,8 +27,8 @@ header {
 }
 
 .logo {
-  max-width: 160px; /* Tamaño máximo del logo */
-  padding-left: 60px;
+  max-width: 180px; /* Tamaño máximo del logo */
+  padding-left: 0px;
 
 }
 
@@ -227,4 +227,14 @@ footer {
 #slider {
   margin-top: 2.50cm; /* Agrega margen superior */
   
+}
+
+@media screen and (max-width: 768px) {
+  /* Estilos para pantallas pequeñas (teléfonos móviles) */
+  /* Por ejemplo, ajustar el tamaño de fuente o el diseño del encabezado */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos para pantallas medianas (tabletas) */
+  /* Por ejemplo, ajustar el diseño de la navegación o los márgenes */
 }
