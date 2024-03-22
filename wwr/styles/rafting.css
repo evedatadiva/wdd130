@@ -26,8 +26,8 @@ header {
 }
 
 .logo {
-  max-width: 150px; /* Tamaño máximo del logo */
-  padding-left: 40px;
+  max-width: 160px; /* Tamaño máximo del logo */
+  padding-left: 60px;
 }
 
 nav {
@@ -50,6 +50,7 @@ nav a {
 .hero {
   position: relative;
   text-align: center;
+  font-weight: 900;
 }
 
 .hero img {
@@ -72,16 +73,22 @@ nav a {
 
 .welcome-text {
   flex: 1; /* Que ocupe todo el espacio disponible */
-  padding-right: 3cm;
+  margin-right: 20px;
+  font-size: 2.5em;
+  
 }
 
 .welcome-image {
-  flex: 1.5; /* Que ocupe todo el espacio disponible */
+  flex: 1; /* Que ocupe todo el espacio disponible */
   text-align: left; /* Alinea la imagen a la derecha */
+  margin-left: 21px;
 }
 
 .welcome-image img {
-  max-width: 150px; /* Tamaño máximo de la imagen */
+  max-width: 1000px; /* Tamaño máximo de la imagen */
+  height: auto;
+  width: 500px;
+  transform: scale(1.1);
 }
 
 
@@ -111,6 +118,13 @@ h2 {
 }
 
 /* Estilos para el contenedor del carrusel */
+.slider-heading {
+  margin-bottom: 20px; /* Agrega un margen inferior al encabezado para separarlo del slider */
+}
+
+#slider {
+  margin-top: 20px; /* Agrega un margen superior al contenedor del slider */
+}
 
 .slider-box {
   width: 100%;
@@ -149,10 +163,6 @@ h2 {
     width: 100%;
   }
 }
-
-
-
-
 
 
 footer {
@@ -196,7 +206,7 @@ footer {
 
 .slider-heading {
   position: absolute;
-  top: 190%; /* Ajusta la posición vertical según sea necesario */
+  top: 182%; /* Ajusta la posición vertical según sea necesario */
   left: 50%;
   transform: translateX(-50%);
   z-index: 1; /* Asegura que esté por encima del slider */
