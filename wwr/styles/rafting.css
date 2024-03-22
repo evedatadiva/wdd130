@@ -206,7 +206,7 @@ footer {
   top: 38.5cm; /* Ajusta la posición vertical según sea necesario */
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1; /* Asegura que esté por encima del slider */
+  z-index: 23; /* Asegura que esté por encima del slider */
   color: #235fa0; /* Color */
   font-size: 32px; /* Tamaño de fuente */
     
