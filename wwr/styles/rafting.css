@@ -164,12 +164,10 @@ h2 {
   }
 }
 
-
 footer {
   text-align: center; /* Centra horizontalmente */
   padding: 30px;
 }
-
 
 /* Estilos para el pie de página */
 footer {
@@ -192,21 +190,20 @@ footer {
   height: auto;
 }
 
-
-
-.slider-heading {
-  text-align: center; /* Centra horizontalmente */
-  position: absolute; /* Posición absoluta para centrar verticalmente */
-  top: 50%; /* Alinea el elemento a la mitad superior del contenedor principal */
-  left: 50%; /* Alinea el elemento a la mitad izquierda del contenedor principal */
-  transform: translate(-50%, -50%); /* Centra vertical y horizontalmente */
-}
+/*.slider-heading { */
+ /* text-align: center;  Centra horizontalmente */
+ /* position: absolute;  Posición absoluta para centrar verticalmente */
+  /*top: 50%; /* Alinea el elemento a la mitad superior del contenedor principal */
+  /*left: 50%; /* Alinea el elemento a la mitad izquierda del contenedor principal */
+  /*transform: translate(-50%, -50%); /* Centra vertical y horizontalmente */
+/*} */
 
 /* Añade estas reglas al final de tu archivo CSS */
 
 .slider-heading {
   position: absolute;
-  top: 44.5cm; /* Ajusta la posición vertical según sea necesario */
+  text-align: center;
+  top: 42.5cm; /* Ajusta la posición vertical según sea necesario */
   left: 50%;
   transform: translateX(-50%);
   z-index: 1; /* Asegura que esté por encima del slider */
