@@ -23,11 +23,13 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  
 }
 
 .logo {
   max-width: 160px; /* Tamaño máximo del logo */
   padding-left: 60px;
+
 }
 
 nav {
@@ -203,7 +205,7 @@ footer {
 .slider-heading {
   position: absolute;
   text-align: center;
-  top: 38.5cm; /* Ajusta la posición vertical según sea necesario */
+  top: 39.5cm; /* Ajusta la posición vertical según sea necesario */
   left: 50%;
   transform: translateX(-50%);
   z-index: 23; /* Asegura que esté por encima del slider */
