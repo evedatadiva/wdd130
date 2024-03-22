@@ -203,7 +203,7 @@ footer {
 .slider-heading {
   position: absolute;
   text-align: center;
-  top: 42.5cm; /* Ajusta la posición vertical según sea necesario */
+  top: 38.5cm; /* Ajusta la posición vertical según sea necesario */
   left: 50%;
   transform: translateX(-50%);
   z-index: 1; /* Asegura que esté por encima del slider */
