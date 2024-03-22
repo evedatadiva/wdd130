@@ -206,7 +206,7 @@ footer {
 
 .slider-heading {
   position: absolute;
-  top: 182%; /* Ajusta la posición vertical según sea necesario */
+  top: 180%; /* Ajusta la posición vertical según sea necesario */
   left: 50%;
   transform: translateX(-50%);
   z-index: 1; /* Asegura que esté por encima del slider */
@@ -226,5 +226,6 @@ footer {
 
 /* Margen entre el slider y el pie de página */
 #slider {
-  margin-top: 1.8cm; /* Agrega margen superior de 1.5 cm */
+  margin-top: 2.50cm; /* Agrega margen superior */
+  
 }
