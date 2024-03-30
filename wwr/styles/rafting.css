@@ -13,8 +13,8 @@ body {
   font-family: 'Roboto', sans-serif; /* Utilizar Roboto como fuente principal */
   color: var(--color-white); /* Texto blanco */
   background-color: var(--color-bg); /* Fondo */
-  margin: 100;
-  padding: 100;
+  margin: 7px;
+  padding: 7px;
 }
 
 /* Estilos para el encabezado */
@@ -22,9 +22,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
-  padding-left: 300px;
-  margin-top: 1px;
+  padding: 1px;
+  padding-left: 250px;
+  margin-top: 0px;
   
 }
 
@@ -103,7 +103,7 @@ nav a {
  display: grid;
  grid-template-columns: 2fr 1fr 1fr;
  grid-gap: 5px;
- gap: 30px;
+ gap: 10px;
  align-items: center; 
  column-gap: 10px;
  margin-left: 10px;
@@ -111,7 +111,7 @@ nav a {
 
 .hero-container {
   display: grid;
-  grid-template-columns: 100 px 100 px;
+  grid-template-columns: 100px 100px;
   gap: 20px;
   grid-gap: 20px;
 
@@ -126,7 +126,7 @@ nav a {
 
 .nav-item {
   display: inline-block;
-  margin: 0 ;
+  margin: 0;
   margin-right: 5px; 
   grid-template-rows: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -135,7 +135,7 @@ nav a {
   grid-gap: 1px;
   justify-items: center; 
   padding: 1px;
-  text-size-adjust: 80px;
+  
 }
 
 .nav-item a {
@@ -171,8 +171,8 @@ nav a {
 
 .welcome-container {
   display: grid;
-  grid-template-columns: 2 1fr;
-  gap: 20 px;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
   align-items:start;
 }
 
@@ -189,7 +189,7 @@ nav a {
 }
 
 main {
-  max-width: 1200px; 
+  max-width: 1000px; 
   margin: 0 auto; 
   padding: 0px;
   margin-top: 0px;
