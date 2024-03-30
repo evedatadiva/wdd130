@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* Definir variables de color */
-:root {
-  --color-primary: #235fa0; /* Azul para el logo y enlaces */
-  --color-secondary: #28a745; /* Verde para acentos */
-  --color-white: #111111; /* Blanco para el texto */
-  --color-bg: #eef2f4; /* Color de fondo */
+:root{
+  --color-primary: #235fa0; 
+  --color-secondary: #28a745; 
+  --color-Black: #111111; 
+  --color-bg: #eef2f4; 
 }
-
 /* Estilos generales */
 body {
   font-family: 'Roboto', sans-serif; /* Utilizar Roboto como fuente principal */
-  color: var(--color-white); /* Texto blanco */
-  background-color: var(--color-bg); /* Fondo */
+  color: #111111; 
+  background-color: #eef2f4; 
   margin: 7px;
   padding: 7px;
 }
@@ -23,15 +22,11 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1px;
-  padding-left: 250px;
-  margin-top: 0px;
-  
+  padding-left: 250px;   
 }
 
 .logo {
-  max-width: 170px; /* Tamaño máximo del logo */
-  padding-left: 0px;
-
+  max-width: 170px; /* Tamaño máximo del logo */ 
 }
 
 nav {
@@ -43,7 +38,7 @@ nav {
 }
 
 nav a {
-  color: var(--color-primary); /* Enlaces azules */
+  color: #235fa0; /* Enlaces azules */
   font-weight: 800; /* Negrita */
   text-decoration: none; /* Sin subrayado */
   margin: 0 3px; /* Espaciado entre enlaces */
@@ -78,7 +73,6 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2.9em;
-  margin-top: 1px;
 }
 
 .welcome-container {
@@ -90,15 +84,14 @@ nav a {
   flex: 1; 
   margin-right: 20px;
   font-size: 3.9em;
-  margin-top: 4px;
-  
+  margin-top: 4px; 
 }
 
 .header-container {
  display: grid;
  grid-template-columns: 2fr 1fr 1fr;
- grid-gap: 5px;
- gap: 10px;
+ /*grid-gap: 5px;*/
+ /*gap: 10px;*/
  align-items: center; 
  column-gap: 10px;
  margin-left: 10px;
@@ -107,8 +100,8 @@ nav a {
 .hero-container {
   display: grid;
   grid-template-columns: 100px 100px;
-  gap: 20px;
-  grid-gap: 20px;
+  /*gap: 20px;*/
+  /*grid-gap: 20px;*/
 
 }
 
@@ -116,7 +109,6 @@ nav a {
   max-width: 250px;
   margin-left: auto;
   margin-right: 100px;
-
 }
 
 .nav-item {
@@ -127,16 +119,15 @@ nav a {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
   grid-column: 1/span 4;
-  grid-gap: 1px;
-  justify-items: center; 
+  /*grid-gap: 1px;*/
+  /*justify-items: center;*/ 
   padding: 1px;
-  
 }
 
 .nav-item a {
   display: block;
   padding: 1px;
-  font-size: 25px;
+  font-size: 26px;
 }
 
 .welcome-image {
@@ -167,8 +158,8 @@ nav a {
 .welcome-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  align-items:start;
+  /*gap: 20px;*/
+  align-items:flex-start;
 }
 
 .hero {
@@ -185,8 +176,6 @@ nav a {
 main {
   max-width: 1000px; 
   margin: 0 auto; 
-  padding: 0px;
-  margin-top: 0px;
 }
 
 article, section {
@@ -202,8 +191,8 @@ section {
   }
   
 h2 {
-  color: var(--color-primary); 
-  font-size: 30pt;
+  color: #235fa0; 
+  font-size: 33pt;
 
 }
 
@@ -232,7 +221,6 @@ footer {
   height: auto;
 }
 
-
 .slider-heading {
   position: absolute;
   text-align: center;
@@ -241,9 +229,9 @@ footer {
   transform: translateX(-50%);
   z-index: 23; 
   color: #235fa0; 
-  font-size: 32px; 
-    
+  font-size: 32px;    
 }
+
 main {
   margin-top: 1.0cm; 
 }
@@ -265,16 +253,13 @@ footer {
   flex-direction: column; 
   align-items: center; 
   text-align: center; 
-  margin-top: 0px;
 }
 
-.contenedor-hero h1{
-  margin-top: 0px;
+.contenedor-hero h1{  
   font-size: 29px;
-  text-align: center;
-  margin-top: 0px;
-
+  text-align: center; 
 }
+
 .hero-content {
   display: flex;
   flex-direction: row; 
@@ -287,6 +272,7 @@ footer {
   flex: 1;
   margin-right: 20px;
 }
+
 .imagen-de-hero img {
   max-width: 100%; 
   height: auto;
@@ -298,7 +284,6 @@ footer {
   margin-left: 20px; 
 }
  .contenedor-hero h1 {
-  margin-top: 0px;
   text-align: center;
  }
 
@@ -307,7 +292,6 @@ footer {
   top: 1px;
 }
 .titulo-hero h1 {
-  top: 0px;
   font-size: 39px;
   color: #235fa0;
 }
@@ -353,8 +337,7 @@ footer {
 
 .slider-images {
   display: flex;
-  justify-content: center; 
-  gap: 10px; 
+  justify-content: center;  
 }
 
 .slider-images img {
