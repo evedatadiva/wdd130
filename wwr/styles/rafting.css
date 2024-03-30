@@ -50,12 +50,21 @@ nav a {
   font-size: 1.2rem; /* Tamaño de fuente */
   padding: 4px; /* Ajuste de relleno */
   margin-right: 3cm; /* Ajuste para alejar los enlaces del logo */
-
+}
   /*margin-left: 30px; /* Espaciado entre enlaces -------------*/
   /*font-size: 1.2rem; /* modificado  ******/
   /*padding-left: 50px;*/
 
-}
+  nav a:hover {
+    color: #0c76e0; /* Cambia el color del enlace cuando se pasa el mouse sobre él */
+    font-size: 1.3rem; /* Puedes ajustar el tamaño de fuente al pasar el mouse */
+  }
+  
+  nav a:active {
+    transform: scale(1.1); /* Aumenta el tamaño del enlace cuando está activo */
+  }
+
+
 
 .hero {
   position: relative;
@@ -257,6 +266,7 @@ h2 {
 }
 
 footer {
+  background-color: #9ac4f1; 
   text-align: center; /* Centra horizontalmente */
   padding: 30px;
 }
@@ -278,7 +288,7 @@ footer {
 }
 
 .sociallinks img {
-  width: 30px; /* Tamaño de los iconos */
+  width: 32px; /* Tamaño de los iconos */
   height: auto;
 }
 
@@ -428,3 +438,27 @@ footer {
 h1 strong {
   color:#235fa0; 
 }
+
+/* Estilos para las imágenes que crecen al pasar el cursor sobre ellas */
+.imagen-de-hero img,
+.middle-content img,
+.slider-images img {
+  transition: transform 0.3s ease; /* Agrega una transición suave al cambio de tamaño */
+}
+
+.imagen-de-hero img:hover,
+.middle-content img:hover,
+.slider-images img:hover {
+  transform: scale(1.1); /* Escala la imagen al 110% del tamaño original al pasar el cursor sobre ella */
+}
+
+.sociallinks img {
+  transition: transform 0.3s ease;
+}
+
+.sociallinks img:hover {
+  transform: scale(1.5); /* Ajusta el valor según sea necesario */
+}
+
+
+
