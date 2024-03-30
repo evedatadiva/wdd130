@@ -88,11 +88,11 @@ nav a {
 
 .welcome-container {
   display: flex;
-  align-items: center; /* Centra verticalmente los elementos */
+  align-items: center; 
 }
 
 .welcome-text {
-  flex: 1; /* Que ocupe todo el espacio disponible */
+  flex: 1; 
   margin-right: 20px;
   font-size: 3.9em;
   margin-top: 4px;
@@ -127,7 +127,7 @@ nav a {
 .nav-item {
   display: inline-block;
   margin: 0 ;
-  margin-right: 5px; /* Ajusta el margen derecho entre los elementos de navegación */
+  margin-right: 5px; 
   grid-template-rows: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
@@ -144,16 +144,14 @@ nav a {
   font-size: 25px;
 }
 
-
-
 .welcome-image {
   display: grid;
-  text-align: left; /* Alinea la imagen a la derecha */
+  text-align: left; 
   margin-left: 21px;
 }
 
 .welcome-image img {
-  max-width: 1000px; /* Tamaño máximo de la imagen */
+  max-width: 1000px; 
   height: auto;
   width: 500px;
   transform: scale(1.1);
@@ -179,116 +177,66 @@ nav a {
 }
 
 
-/* Añade este código al final de tu archivo CSS */
-
 .hero {
   display: flex;
-  flex-direction: row; /* Organiza los elementos en fila */
-  align-items: center; /* Centra verticalmente los elementos */
+  flex-direction: row; 
+  align-items: center; 
 }
 
 .imagen-de-hero img {
-  max-width: 50%; /* Tamaño máximo de la imagen */
+  max-width: 50%; 
   height: auto;
 }
 
-
-
-/* Estilos para el contenido principal */
 main {
-  max-width: 1200px; /* Ancho máximo del contenido */
-  margin: 0 auto; /* Centrar el contenido */
+  max-width: 1200px; 
+  margin: 0 auto; 
   padding: 0px;
   margin-top: 0px;
 }
 
 article, section {
-  margin-bottom: 30px; /* Espacio entre secciones */
+  margin-bottom: 30px; 
 }
 
 section {
     display: flex;
-    flex-direction: column; /* Alinear elementos en columna */
-    align-items: center; /* Centrar horizontalmente */
-    justify-content: center; /* Centrar verticalmente */
-    text-align: center; /* Alinear texto en el centro */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
   }
   
 h2 {
-  color: var(--color-primary); /* Encabezados en azul */
+  color: var(--color-primary); 
   font-size: 30pt;
 
 }
 
-/* Estilos para el contenedor del carrusel */
-/*.slider-heading {
-  margin-bottom: 20px; /* Agrega un margen inferior al encabezado para separarlo del slider 
-}*/
-
-/*#slider {
-  margin-top: 20px; /* Agrega un margen superior al contenedor del slider }*/
-
-/*.slider-box {
-  width: 100%;
-  overflow: hidden;
-}
-
-/*.slider-box ul {
-  display: flex;
-  padding: 0;
-  width: 500%; /* Ajusta el ancho total para todas las imágenes */
- /* animation: slide 30s infinite alternate ease-in-out; * Añade ease-in-out para una animación más suave}*/
-
-/*.slider-box li {
-  width: 20%;
-  list-style: none;
-  position: relative;
-}
-
-.slider-box img {
-  width: 100%; /* Ajusta el ancho de la imagen al contenedor 
-  height: auto;
-}*/
-
-@keyframes slide {
-  0% { transform: translateX(0); } /* Inicia sin desplazamiento */
-  100% { transform: translateX(-100%); } /* Desplaza todas las imágenes hacia la izquierda */
-}
-
-@media (max-width: 991px) {
-  .slider-box {
-    width: 100%;
-  }
-
-  .slider-box li {
-    width: 100%;
-  }
-}
 
 footer {
   background-color: #9ac4f1; 
-  text-align: center; /* Centra horizontalmente */
+  text-align: center; 
   padding: 30px;
 }
 
-/* Estilos para el pie de página */
 footer {
-  text-align: center; /* Centra horizontalmente */
+  text-align: center; 
   padding: 30px;
 }
 
-/* Estilos para los enlaces sociales */
+
 .sociallinks {
-  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
-  text-align: right; /* Alinea los enlaces sociales a la derecha */
+  margin-top: 10px; 
+  text-align: right; 
 }
 
 .sociallinks a {
-  margin-left: 10px; /* Espacio entre los enlaces sociales */
+  margin-left: 10px; 
 }
 
 .sociallinks img {
-  width: 32px; /* Tamaño de los iconos */
+  width: 32px; 
   height: auto;
 }
 
@@ -296,46 +244,35 @@ footer {
 .slider-heading {
   position: absolute;
   text-align: center;
-  top: 39.5cm; /* Ajusta la posición vertical según sea necesario */
+  top: 39.5cm; 
   left: 50%;
   transform: translateX(-50%);
-  z-index: 23; /* Asegura que esté por encima del slider */
-  color: #235fa0; /* Color */
-  font-size: 32px; /* Tamaño de fuente */
+  z-index: 23; 
+  color: #235fa0; 
+  font-size: 32px; 
     
 }
 main {
-  margin-top: 1.0cm; /* Agrega margen superior de 1.5 cm */
+  margin-top: 1.0cm; 
 }
 
-/* Margen entre el contenido principal y el pie de página */
+
 footer {
-  margin-top: 1cm; /* Agrega margen superior de 1.5 cm */
+  margin-top: 1cm; 
   text-align: center;
 }
 
-/* Margen entre el slider y el pie de página */
+
 #slider {
-  margin-top: 2.50cm; /* Agrega margen superior */
+  margin-top: 2.50cm; 
   
 }
 
-@media screen and (max-width: 768px) {
-  /* Estilos para pantallas pequeñas (teléfonos móviles) */
-  /* Por ejemplo, ajustar el tamaño de fuente o el diseño del encabezado */
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  /* Estilos para pantallas medianas (tabletas) */
-  /* Por ejemplo, ajustar el diseño de la navegación o los márgenes */
-}
-/* Añade este código al final de tu archivo CSS */
-
 .contenedor-hero {
   display: flex;
-  flex-direction: column; /* Organiza los elementos en columna */
-  align-items: center; /* Centra horizontalmente los elementos */
-  text-align: center; /* Alinea el texto al centro */
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
   margin-top: 0px;
 }
 
@@ -348,9 +285,9 @@ footer {
 }
 .hero-content {
   display: flex;
-  flex-direction: row; /* Organiza los elementos en fila */
-  align-items: center; /* Centra verticalmente los elementos */
-  justify-content: space-between; /* Espacio entre los elementos */
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: space-between; 
   margin-top:1%;
 }
 
@@ -359,14 +296,14 @@ footer {
   margin-right: 20px;
 }
 .imagen-de-hero img {
-  max-width: 100%; /* Tamaño máximo de la imagen */
+  max-width: 100%; 
   height: auto;
   border-radius: 10px;
 }
 
 .text-container {
-  flex: 1; /* El texto ocupará todo el espacio disponible */
-  margin-left: 20px; /* Espacio entre la imagen y el texto */
+  flex: 1; 
+  margin-left: 20px; 
 }
  .contenedor-hero h1 {
   margin-top: 0px;
@@ -400,38 +337,38 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 50%; /* Define el ancho máximo de la imagen */
+  max-width: 50%; 
   height: auto;
 }
 .middle-content img {
-  max-width: 80% !important; /* Define el ancho máximo de la imagen */
-  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+  max-width: 80% !important; 
+  height: auto; 
   border-radius: 10px;
 }
 
-/* Estilos para la sección del carrusel********* */
+
 
 #slider {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centra horizontalmente */
-  margin-top: 50px; /* Ajusta el margen superior */
+  align-items: center; 
+  margin-top: 50px; 
 }
 
 .slider-heading {
-  text-align: center; /* Centra el texto */
+  text-align: center; 
   margin-bottom: 20px;
 }
 
 .slider-images {
   display: flex;
-  justify-content: center; /* Centra las imágenes horizontalmente */
-  gap: 10px; /* Espacio entre las imágenes */
+  justify-content: center; 
+  gap: 10px; 
 }
 
 .slider-images img {
-  width: 265px; /* Tamaño de las imágenes */
-  height: 265px; /* Ajusta la altura automáticamente */
+  width: 265px; 
+  height: 265px; 
   border-radius: 10px;
 }
 
@@ -439,17 +376,16 @@ h1 strong {
   color:#235fa0; 
 }
 
-/* Estilos para las imágenes que crecen al pasar el cursor sobre ellas */
 .imagen-de-hero img,
 .middle-content img,
 .slider-images img {
-  transition: transform 0.3s ease; /* Agrega una transición suave al cambio de tamaño */
+  transition: transform 0.3s ease; 
 }
 
 .imagen-de-hero img:hover,
 .middle-content img:hover,
 .slider-images img:hover {
-  transform: scale(1.1); /* Escala la imagen al 110% del tamaño original al pasar el cursor sobre ella */
+  transform: scale(1.1); 
 }
 
 .sociallinks img {
@@ -457,7 +393,7 @@ h1 strong {
 }
 
 .sociallinks img:hover {
-  transform: scale(1.5); /* Ajusta el valor según sea necesario */
+  transform: scale(1.5); 
 }
 
 
