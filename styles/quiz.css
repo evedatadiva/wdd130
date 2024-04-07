@@ -54,15 +54,16 @@ button:hover {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    overflow: hidden;
 }
 
 .additional-content img {
     margin-bottom: 20px; 
     height: auto;
-    max-width: 100%;
+    max-width: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 550px) {
     
     body {
         padding: 10px; 
