@@ -59,6 +59,7 @@ button:hover {
 .additional-content img {
     margin-bottom: 20px; 
     height: auto;
+    max-width: 100%;
 }
 
 @media (max-width: 600px) {
