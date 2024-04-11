@@ -510,8 +510,9 @@ textarea {
 }
 
 input[type=checkbox] + label {
-  color: #ccc;
+  color: #171616;
   font-style: italic;
+  font-size: 13px;
 }
 
 input[type=checkbox]:checked + label {
@@ -533,7 +534,7 @@ input[type=checkbox]:checked + label {
   border-radius: 4px;
   cursor: pointer;
   background-color: #2d2d2d;
-  color: white;
+  color: rgb(238, 231, 231);
   font-size: 14px;
   margin: 0 7px; /* Añade un pequeño margen entre las etiquetas */
   width: 170px; /* Ancho deseado para las cajas */
@@ -614,11 +615,17 @@ input[type=checkbox]:checked + label {
   text-decoration: underline; 
 }
 .contact-info p {
-  color: #235fa0; /* Color gris específico, puedes ajustar el tono cambiando el valor hexadecimal */
+  color: #235fa0; 
   font-weight: bold;
   text-shadow: -1px -1px 0 #fff,  
                 1px -1px 0 #fff,  
                -1px 1px 0 #fff,  
                1px 1px 0 #fff;
   font-size: 20px;
+}
+body {
+  background-image: url('/wwr/images/fondo.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
