@@ -616,23 +616,23 @@ body {
 
 /* Estilos para el slider */
 #slider {
-  padding: 50px 0; /* Espaciado interno */
+  padding: 50px 0;
   
 }
 .slider-container {
-    margin-top: 1px;  /* Ajusta según sea necesario */
+    margin-top: 1px;  
 }
 .slider-heading h2 {
-  color: white; /* Color de texto blanco para el título */
-  text-align: center; /* Alineación centrada del texto */
+  color: white; 
+  text-align: center; 
 }
 
 #carouselExampleIndicators {
-  margin-top: 1px; /* Ajusta el margen superior según sea necesario */
+  margin-top: 1px; 
 }
 .carousel-item img {
-  height: 650px; /* Altura de las imágenes del slider */
-  object-fit: cover; /* Cubrir todo el contenedor */
+  height: 650px; 
+  object-fit: cover; 
   width: 1740px;
 }
 
@@ -646,30 +646,30 @@ body {
   padding: 15px 30px;
 }
 
-/* Estilos específicos para el slider */
+
 #slider {
-  color: #fff; /* Cambiar color de texto dentro del slider */
-  padding: 45px 0; /* Ajustar espaciado interno del slider */
+  color: #fff; 
+  padding: 45px 0; 
 }
 
 .carousel-caption {
  
-  padding: 20px; /* Espaciado interno del caption */
+  padding: 20px; 
 }
 
 .carousel-caption a.btn {
-  background-color: #f90; /* Color de fondo naranja para el botón */
-  color: #fff; /* Color de texto blanco para el botón */
+  background-color: #f90; 
+  color: #fff; 
   font-weight: bold;
-  border-color: #f90; /* Color del borde naranja para el botón */
+  border-color: #f90; 
   font-size: 25px;
   width: auto;
 
 }
 
 .carousel-caption a.btn:hover {
-  background-color: #ffaa00; /* Cambiar color de fondo al pasar el mouse sobre el botón */
-  border-color: #ffaa00; /* Cambiar color del borde al pasar el mouse sobre el botón */
+  background-color: #ffaa00; 
+  border-color: #ffaa00; 
 }
 
 .adventure-text {
@@ -706,7 +706,7 @@ body {
       border-color: transparent;
   }
   100% {
-      border-color: transparent; /* Mantener el borde transparente al final de la animación */
+      border-color: transparent; 
   }
 }
 .type-animation {
@@ -737,68 +737,67 @@ body {
       border-color: transparent;
   }
   100% {
-      border-color: transparent; /* Mantener el borde transparente al final de la animación */
+      border-color: transparent; 
   }
 }
 
-/* Estilos para la sección de viajes */
+
 #trip-section {
-  padding: 50px 0; /* Espaciado interno arriba y abajo */
+  padding: 50px 0; 
 }
 
-/* Estilos para la tabla de viajes */
+
 .table {
-  width: 100%; /* Ancho completo */
-  border-collapse: collapse; /* Colapso de bordes de la tabla */
+  width: 100%; 
+  border-collapse: collapse;
 }
 
 .table td {
-  vertical-align: top; /* Alineación vertical superior */
-  padding: 20px; /* Espaciado interno */
+  vertical-align: top; 
+  padding: 20px; 
 }
 
 
-/* Estilos para la imagen de viaje */
 .table img {
-  max-width: 300px; /* Ancho máximo de la imagen */
-  height: auto; /* Altura automática */
-  display: block; /* Mostrar como bloque */
-  margin-bottom: 10px; /* Margen inferior */
+  max-width: 300px; 
+  height: auto; 
+  display: block; 
+  margin-bottom: 10px; 
 }
 
-/* Estilos para el título de viaje */
+
 .table p, 
 .table h3 {
-  font-size: 1.5em; /* Tamaño de fuente */
-  margin-bottom: 10px; /* Margen inferior */
+  font-size: 1.5em; 
+  margin-bottom: 10px; 
   color: white;
 }
 
-/* Estilos para el botón de reserva */
+
 .table .btn-primary {
-  display: inline-block; /* Mostrar en línea pcomo bloque */
-  background-color: #007bff; /* Color de fondo */
-  color: #fff; /* Color del texto */
-  padding: 10px 20px; /* Espaciado interno */
-  text-decoration: none; /* Sin subrayado de texto */
-  border-radius: 5px; /* Radio de borde */
+  display: inline-block; 
+  background-color: #007bff; 
+  color: #fff; 
+  padding: 10px 20px;
+  text-decoration: none; 
+  border-radius: 5px; 
 }
 
-/* Estilos para el botón de reserva al pasar el mouse */
+
 .table .btn-primary:hover {
-  background-color: #0056b3; /* Cambio de color de fondo al pasar el mouse */
+  background-color: #f90;
 }
 
 
 #trip-section {
-  margin-top: 20px; /* Espacio superior */
-  margin-bottom: 50px; /* Espacio inferior */
+  margin-top: 20px; 
+  margin-bottom: 50px;
 }
 
 
 .trip {
-  text-align: center; /* Centrar el contenido dentro del contenedor */
-  margin-bottom: 30px; /* Espacio entre cada viaje */
+  text-align: center; 
+  margin-bottom: 30px; 
   font-weight: bold;
 }
 .trip h3 {
@@ -807,8 +806,8 @@ body {
 
 @media (min-width: 768px) {
   .col-md-4 {
-      flex-basis: 33.33%; /* Ancho del 33.33% para que se muestren en línea */
-      max-width: 33.33%; /* Ancho máximo del 33.33% */
+      flex-basis: 33.33%; 
+      max-width: 33.33%; 
   }
 }
 
@@ -818,21 +817,21 @@ body {
 }
 
 .trip a.btn.btn-primary:hover {
-  background-color: #f90; /* Color de fondo naranja para el botón */
-  color: #fff; /* Color de texto blanco para el botón */
+  background-color: #f90;
+  color: #fff; 
   font-weight: bold;
-  border-color: #f90; /* Color del borde naranja para el botón */
+  border-color: #f90; 
   font-size: 28px;
   width: auto;
 }
 
 #trip-section {
     background-color: black;
-    color: white; /* Cambia el color del texto a blanco */
-    padding: 20px; /* Ajusta el relleno para dar espacio al contenido */
+    color: white; 
+    padding: 20px;
 }
 
-/* Estilos CSS relevantes para la animación */
+
 .testimonial-animation {
   font-weight: bold;
   font-size: 42px;
@@ -842,7 +841,7 @@ body {
 
 #testimonials {
   padding: 50px 0;
-  background-color: #f8f9fa; /* Color de fondo */
+  background-color: #f8f9fa; 
 }
 
 .testimonial {
@@ -853,7 +852,7 @@ body {
 .testimonial-img img {
   width: 150px;
   height: 150px;
-  border-radius: 50%; /* Hacer la imagen circular */
+  border-radius: 50%; 
   margin-bottom: 20px;
 }
 
@@ -871,7 +870,7 @@ body {
 
 .rating {
   font-size: 1.5rem;
-  color: #ffc107; /* Color amarillo para las estrellas */
+  color: #ffc107; 
 }
 
 .star {
@@ -881,8 +880,8 @@ body {
 
 
 footer {
-  background-color: rgba(26, 137, 150, 0.8); /* Fondo semitransparente para el pie de página */
-  color: #fff; /* Color de texto blanco para el pie de página */
+  background-color: rgba(26, 137, 150, 0.8); 
+  color: #fff; 
   padding: 20px 0;
   text-align: center;
 }
