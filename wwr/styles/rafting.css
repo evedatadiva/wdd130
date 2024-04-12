@@ -740,16 +740,59 @@ body {
       border-color: transparent; /* Mantener el borde transparente al final de la animación */
   }
 }
+
+/* Estilos para la sección de viajes */
+#trip-section {
+  padding: 50px 0; /* Espaciado interno arriba y abajo */
+}
+
+/* Estilos para la tabla de viajes */
+.table {
+  width: 100%; /* Ancho completo */
+  border-collapse: collapse; /* Colapso de bordes de la tabla */
+}
+
+.table td {
+  vertical-align: top; /* Alineación vertical superior */
+  padding: 20px; /* Espaciado interno */
+}
+
+
+/* Estilos para la imagen de viaje */
+.table img {
+  max-width: 300px; /* Ancho máximo de la imagen */
+  height: auto; /* Altura automática */
+  display: block; /* Mostrar como bloque */
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilos para el título de viaje */
+.table p, 
+.table h3 {
+  font-size: 1.5em; /* Tamaño de fuente */
+  margin-bottom: 10px; /* Margen inferior */
+  color: white;
+}
+
+/* Estilos para el botón de reserva */
+.table .btn-primary {
+  display: inline-block; /* Mostrar en línea pcomo bloque */
+  background-color: #007bff; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno */
+  text-decoration: none; /* Sin subrayado de texto */
+  border-radius: 5px; /* Radio de borde */
+}
+
+/* Estilos para el botón de reserva al pasar el mouse */
+.table .btn-primary:hover {
+  background-color: #0056b3; /* Cambio de color de fondo al pasar el mouse */
+}
+
+
 #trip-section {
   margin-top: 20px; /* Espacio superior */
   margin-bottom: 50px; /* Espacio inferior */
-}
-
-.trip img {
-  width: 100%; /* La imagen ocupa todo el ancho del contenedor */
-  height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
-  display: block;
-  margin-top: 10 px; /* Para eliminar espacios adicionales debajo de las imágenes */
 }
 
 
