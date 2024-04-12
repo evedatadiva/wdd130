@@ -32,9 +32,9 @@ header {
 nav {
   display: flex;
   justify-content: flex-end;
-  height: 10px; /* */
+  height: 8px; /* */
   align-items: center;
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 nav a {
@@ -193,7 +193,6 @@ section {
 h2 {
   color: #235fa0; 
   font-size: 33pt;
-
 }
 
 footer {
@@ -243,10 +242,7 @@ footer {
 }
 
 
-#slider {
-  margin-top: 2.50cm; 
-  
-}
+
 
 .contenedor-hero {
   display: flex;
@@ -370,7 +366,7 @@ h1 strong {
   transform: scale(1.5); 
 }
 
-/* contact us  */
+/* CONTACT US */
 /*             */
 
 body {
@@ -550,7 +546,6 @@ input[type=checkbox]:checked + label {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
 }
 
-
 .text-center {
   text-align: center; 
   margin-top: 20px; 
@@ -616,3 +611,261 @@ body {
   background-position: center; 
   background-repeat: no-repeat; 
 }
+
+/* STYLES FOR trips.html */
+
+/* Estilos para el slider */
+#slider {
+  padding: 50px 0; /* Espaciado interno */
+  
+}
+.slider-container {
+    margin-top: 1px;  /* Ajusta según sea necesario */
+}
+.slider-heading h2 {
+  color: white; /* Color de texto blanco para el título */
+  text-align: center; /* Alineación centrada del texto */
+}
+
+#carouselExampleIndicators {
+  margin-top: 1px; /* Ajusta el margen superior según sea necesario */
+}
+.carousel-item img {
+  height: 650px; /* Altura de las imágenes del slider */
+  object-fit: cover; /* Cubrir todo el contenedor */
+  width: 1740px;
+}
+
+.book-now {
+  background-color: #f8f9fa; 
+  padding: 10px 0; 
+}
+
+.book-now .btn {
+  font-size: 20px;
+  padding: 15px 30px;
+}
+
+/* Estilos específicos para el slider */
+#slider {
+  color: #fff; /* Cambiar color de texto dentro del slider */
+  padding: 45px 0; /* Ajustar espaciado interno del slider */
+}
+
+.carousel-caption {
+ 
+  padding: 20px; /* Espaciado interno del caption */
+}
+
+.carousel-caption a.btn {
+  background-color: #f90; /* Color de fondo naranja para el botón */
+  color: #fff; /* Color de texto blanco para el botón */
+  font-weight: bold;
+  border-color: #f90; /* Color del borde naranja para el botón */
+  font-size: 25px;
+  width: auto;
+
+}
+
+.carousel-caption a.btn:hover {
+  background-color: #ffaa00; /* Cambiar color de fondo al pasar el mouse sobre el botón */
+  border-color: #ffaa00; /* Cambiar color del borde al pasar el mouse sobre el botón */
+}
+
+.adventure-text {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  white-space: pre;
+  overflow: hidden;
+}
+
+.typing-animation {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+  font-family: "Courier New";
+  border-right: 0.15em solid #18bdec;
+  animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+  background-color: black;
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+  100% {
+      border-color: transparent; /* Mantener el borde transparente al final de la animación */
+  }
+}
+.type-animation {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 3.9rem;
+  font-weight: bold;
+  margin: 0 auto;
+  font-family: "Courier New";
+  border-right: 0.15em solid #18bdec;
+  animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+  color: #235fa0;
+  
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+  100% {
+      border-color: transparent; /* Mantener el borde transparente al final de la animación */
+  }
+}
+#trip-section {
+  margin-top: 20px; /* Espacio superior */
+  margin-bottom: 50px; /* Espacio inferior */
+}
+
+.trip img {
+  width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+  height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+  display: block;
+  margin-top: 10 px; /* Para eliminar espacios adicionales debajo de las imágenes */
+}
+
+
+.trip {
+  text-align: center; /* Centrar el contenido dentro del contenedor */
+  margin-bottom: 30px; /* Espacio entre cada viaje */
+  font-weight: bold;
+}
+.trip h3 {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+      flex-basis: 33.33%; /* Ancho del 33.33% para que se muestren en línea */
+      max-width: 33.33%; /* Ancho máximo del 33.33% */
+  }
+}
+
+.trip a.btn.btn-primary {
+  background-color: #f90;
+  color: white;
+}
+
+.trip a.btn.btn-primary:hover {
+  background-color: #f90; /* Color de fondo naranja para el botón */
+  color: #fff; /* Color de texto blanco para el botón */
+  font-weight: bold;
+  border-color: #f90; /* Color del borde naranja para el botón */
+  font-size: 28px;
+  width: auto;
+}
+
+#trip-section {
+    background-color: black;
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 20px; /* Ajusta el relleno para dar espacio al contenido */
+}
+
+/* Estilos CSS relevantes para la animación */
+.testimonial-animation {
+  font-weight: bold;
+  font-size: 42px;
+  color: #235fa0;
+
+}
+
+#testimonials {
+  padding: 50px 0;
+  background-color: #f8f9fa; /* Color de fondo */
+}
+
+.testimonial {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Hacer la imagen circular */
+  margin-bottom: 20px;
+}
+
+.testimonial h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.rating {
+  font-size: 1.5rem;
+  color: #ffc107; /* Color amarillo para las estrellas */
+}
+
+.star {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
+footer {
+  background-color: rgba(26, 137, 150, 0.8); /* Fondo semitransparente para el pie de página */
+  color: #fff; /* Color de texto blanco para el pie de página */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container.text-center p a {
+  color: white;
+  text-decoration: underline;
+}
+.sociallinks {
+  margin-top: 20px;
+}
+
+.sociallinks a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.sociallinks img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.sociallinks img:hover {
+  transform: scale(1.2);
+}
+
+
