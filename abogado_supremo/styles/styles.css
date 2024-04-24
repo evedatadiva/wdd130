@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centrar contenido horizontalmente */
+    align-items: center;
+    flex-direction: column; /* Apilar elementos verticalmente */
+}
+
+.logo img {
+    width: 399px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Para mantener la proporción original del logo */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto blanco */
+    font-size: 30px; /* Tamaño de fuente más grande (ajusta según sea necesario) */
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    transition: color 0.3s ease; /* Transición suave del color al pasar el ratón */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Cambiar color al pasar el ratón (amarillo en este ejemplo) */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.typing-effect {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#typing-text {
+    font-size: 48px;
+    color: #333; /* Color del texto */
+    font-family: "Book Antiqua", Palatino, serif; /* Fuente del texto */
+    overflow: hidden; /* Para que el texto se recorte al final del contenedor */
+    border-right: .15em solid orange; /* Efecto de cursor de tipeo */
+    white-space: nowrap;
+}
+
+/* Estilos para el slider de imágenes */
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden; /* Ocultar contenido que sobresalga del contenedor */
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.slider-container img {
+    width: 1600px; /* Establecer ancho de la imagen */
+    height: 500px; /* Establecer altura de la imagen */
+    margin: 0 5px; /* Agregar margen reducido a la derecha e izquierda de las imágenes */
+    object-fit: cover; /* Ajustar tamaño y recortar imagen para encajar */
+    transition: transform 0.3s ease; /* Agregar transición suave al hacer hover sobre las imágenes */
+}
+
+/* Estilos para el efecto de hover sobre las imágenes */
+.slider-container img:hover {
+    transform: scale(1.1); /* Hacer zoom al hacer hover sobre las imágenes */
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #f60505;
+    margin-top: 20px;
+    text-align: center;
+}

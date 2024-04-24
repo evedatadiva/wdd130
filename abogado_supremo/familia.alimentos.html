@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOGADO SUPREMO</title>
+    <link rel="stylesheet" href="/abogado_supremo/styles/styles.css"> <!-- Enlace al archivo CSS externo -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/abogado_supremo/images/abogadosupremo.png" alt="Logo de Mi Página Web">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#familia">Familia</a></li>
+                <li><a href="#civil">Civil</a></li>
+                <li><a href="#constitucional">Constitucional</a></li>
+                <li><a href="#penal">Penal</a></li>
+                <li><a href="#administrativo">Administrativo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="typing-effect">
+        <p id="typing-text"></p>
+    </div>
+
+    <script>
+        // Frase para la animación de tipeo
+        var typingText = "Tu éxito judicial en un clic: Modelos que aseguran tu victoria!";
+
+        // Función para animación de tipeo
+        function typeWriter(text, i) {
+            if (i < text.length) {
+                document.getElementById("typing-text").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(function() { typeWriter(text, i); }, 50); // Velocidad de tipeo (50ms)
+            } else {
+                setTimeout(function() { restartTyping(); }, 10000); 
+            }
+        }
+
+        // Función para reiniciar la animación de tipeo
+        function restartTyping() {
+            document.getElementById("typing-text").innerHTML = ""; // Reiniciar el texto
+            typeWriter(typingText, 0); // Comenzar de nuevo la animación de tipeo
+        }
+
+        // Iniciar animación de tipeo al cargar la página
+        window.onload = function() {
+            typeWriter(typingText, 0); // Comenzar la animación de tipeo
+        };
+    </script>
+
+    <!-- Slider con imágenes -->
+    <div class="slider-container">
+        <img src="/abogado_supremo/images/imagen1-min.jpg" alt="Imagen 1">
+        <img src="/abogado_supremo/images/imagen2-min.jpg" alt="Imagen 2">
+        <img src="/abogado_supremo/images/imagen3-min.jpg" alt="Imagen 3">
+        <img src="/abogado_supremo/images/imagen4-min.jpg" alt="Imagen 4">
+        <img src="/abogado_supremo/images/imagen5-min.jpg" alt="Imagen 5">
+        <img src="/abogado_supremo/images/imagen6-min.jpg" alt="Imagen 6">
+        <img src="/abogado_supremo/images/imagen7-min.jpg" alt="Imagen 7">
+        <img src="/abogado_supremo/images/imagen8-min.jpg" alt="Imagen 8">
+        <img src="/abogado_supremo/images/imagen9-min.jpg" alt="Imagen 9">
+        <img src="/abogado_supremo/images/imagen11-min.jpg" alt="Imagen 11">
+        
+       
+    </div>
+
+    <script>
+        // Frase para la animación de tipeo
+        var typingText = " Tu éxito judicial en un clic: Modelos que aseguran tu victoria!";
+
+        // Función para animación de tipeo
+        function typeWriter(text, i) {
+            if (i < text.length) {
+                document.getElementById("typing-text").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(function() { typeWriter(text, i); }, 60); // Velocidad de tipeo (50ms)
+            } else {
+                setTimeout(function() { restartTyping(); }, 10000); // Reiniciar tipeo después de 22 segundos
+            }
+        }
+
+        // Función para reiniciar la animación de tipeo
+        function restartTyping() {
+            document.getElementById("typing-text").innerHTML = ""; // Reiniciar el texto
+            typeWriter(typingText, 1); // Comenzar de nuevo la animación de tipeo
+        }
+
+        // Iniciar animación de tipeo al cargar la página
+        window.onload = function() {
+            typeWriter(typingText, 0); // Comenzar la animación de tipeo
+            startSlider(); // Iniciar el slider de imágenes
+        };
+
+        // Función para iniciar el slider de imágenes
+        function startSlider() {
+            var images = document.querySelectorAll('.slider-container img');
+            var currentIndex = 0;
+            var interval = setInterval(function() {
+                images[currentIndex].style.display = 'none'; // Ocultar imagen actual
+                currentIndex = (currentIndex + 1) % images.length; // Obtener siguiente índice
+                images[currentIndex].style.display = 'block'; // Mostrar siguiente imagen
+            }, 3000); // Cambiar cada 3 segundos (3000ms)
+
+            // Detener el slider al hacer hover sobre las imágenes
+            images.forEach(function(img) {
+                img.addEventListener('mouseenter', function() {
+                    clearInterval(interval); // Detener intervalo al hacer hover
+                });
+
+                img.addEventListener('mouseleave', function() {
+                    interval = setInterval(function() {
+                        images[currentIndex].style.display = 'none'; // Ocultar imagen actual
+                        currentIndex = (currentIndex + 1) % images.length; // Obtener siguiente índice
+                        images[currentIndex].style.display = 'block'; // Mostrar siguiente imagen
+                    }, 3000); // Reanudar cambio cada 3 segundos (3000ms) después de salir del hover
+                });
+            });
+        }
+    </script>
+    
+    <h2>MODELO DE DEMANDA DE ALIMENTOS</h2>
+    <h2>A FAVOR DE MENOR DE EDAD</h2>
+
+
+
+
+    <main>
+        <!-- Contenido principal de la página -->
+        <!-- Agrega aquí las secciones correspondientes a cada opción de navegación -->
+        <section id="familia">
+            <h2>Derecho de Familia</h2>
+            <p>Contenido relacionado con el derecho de familia.</p>
+        </section>
+
+        <section id="civil">
+            <h2>Derecho Civil</h2>
+            <p>Contenido relacionado con el derecho civil.</p>
+        </section>
+
+        <section id="constitucional">
+            <h2>Derecho Constitucional</h2>
+            <p>Contenido relacionado con el derecho constitucional.</p>
+        </section>
+
+        <section id="penal">
+            <h2>Derecho Penal</h2>
+            <p>Contenido relacionado con el derecho penal.</p>
+        </section>
+
+        <section id="administrativo">
+            <h2>Derecho Administrativo</h2>
+            <p>Contenido relacionado con el derecho administrativo.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos Reservados &copy; 2024 ABOGADO SUPREMO</p>
+    </footer>
+</body>
+</html>
